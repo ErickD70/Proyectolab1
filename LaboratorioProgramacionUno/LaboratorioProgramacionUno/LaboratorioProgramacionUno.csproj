@@ -46,9 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\listadoDeAdministradores.cs" />
-    <Compile Include="DAO\listadoDeUsuarios.cs" />
+    <Compile Include="DAO\listaDeAdministradores.cs" />
+    <Compile Include="DAO\listaDeUsuarios.cs" />
     <Compile Include="DOMINIO\Login.cs" />
+    <Compile Include="NEGOCIO\clsLogin.cs" />
     <Compile Include="VISTA\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,7 +62,6 @@
     <Compile Include="VISTA\frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="NEGOCIO\clsLogin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VISTA\frmOperaciones.cs">
